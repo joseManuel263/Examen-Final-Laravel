@@ -1,66 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Objetivo: 
+Replicar el proyecto que se encuentra en el enlace proporcionado, utilizando las siguientes tecnologías y herramientas:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+    Frontend: Angular con PrimeNG
+    Backend: Laravel
+    Base de Datos: MySQL
 
-## About Laravel
+Revisión del Proyecto Original:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    Solicita tus credenciales personales al docente
+    Accede al proyecto en el enlace proporcionado y navega por cada sección y funcionalidad.
+    Toma notas sobre los componentes clave, la navegación, la interacción del usuario, y las características visuales.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Diseño del Frontend:
+Componentes Angular:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    Crea componentes reutilizables y organiza el flujo de datos utilizando servicios.
+    Aplica PrimeNG para estilizar los componentes y mejorar la experiencia de usuario.
 
-## Learning Laravel
+Navegación:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    Implementa rutas según la estructura del proyecto original.
+    Asegúrate de que la navegación sea fluida y respete la jerarquía de las páginas.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Validaciones:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    Implementa validaciones tanto en el frontend como en el backend.
 
-## Laravel Sponsors
+Desarrollo del Backend:
+APIs y Controladores:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+    Crea controladores en Laravel para manejar las solicitudes HTTP.
+    Implementa rutas y asegura que las API endpoints respondan correctamente a las solicitudes del Frontend.
 
-### Premium Partners
+Autenticación y Seguridad:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+    Implementa autenticación y autorizaciones utilizando Laravel Sanctum.
+    Asegúrate de proteger las rutas que lo requieran y manejar tokens de sesión en el Frontend.
 
-## Contributing
+Base de Datos:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    Diseña el esquema de la base de datos en MySQL según los requisitos del proyecto.
+    Implementa relaciones entre tablas (si aplica) y utiliza Eloquent para interactuar con la base de datos.
 
-## Code of Conduct
+Tips:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    Documenta cada parte del proyecto, incluyendo instrucciones de instalación y uso.
+    Utiliza Git para el control de versiones y sube tu proyecto a GitHub o Bitbucket.
+    Mantén un código limpio y bien comentado, siguiendo las mejores prácticas de cada tecnología.
 
-## Security Vulnerabilities
+Entrega:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    Sube el proyecto final en dos repositorios separados: uno para Laravel y otro para Angular.
+    Adjunta la base de datos en el mismo lugar de entrega, asegurándote de que esté correctamente exportada y lista para su importación.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Fecha de Entrega Presencial: 30 de Agosto 2024 en Laboratorio de sistemas a las 9:00 AM
+Nota: Solo se revisaran proyectos que esten entregados en Classroom
